@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="KGk-i7-Jjw" customClass="DataTableViewCell" customModule="AnupGhoshQ1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsT-bg-1in">
+                        <rect key="frame" x="5" y="0.0" width="406" height="138"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="It4-eV-pgh">
+                                <rect key="frame" x="10" y="10" width="40" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="VeO-c4-7aq"/>
+                                    <constraint firstAttribute="height" constant="20" id="lIa-ti-zIU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sunt aut facere repellat provident occaecati excepturi optio reprehenderit" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUX-jf-gV1">
+                                <rect key="frame" x="55" y="10" width="346" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4l-WK-gAQ">
+                                <rect key="frame" x="55" y="58" width="346" height="75"/>
+                                <string key="text">et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="iUX-jf-gV1" firstAttribute="top" secondItem="tsT-bg-1in" secondAttribute="top" constant="10" id="35M-Tr-93N"/>
+                            <constraint firstItem="It4-eV-pgh" firstAttribute="leading" secondItem="tsT-bg-1in" secondAttribute="leading" constant="10" id="5VO-nS-GGZ"/>
+                            <constraint firstItem="o4l-WK-gAQ" firstAttribute="leading" secondItem="tsT-bg-1in" secondAttribute="leading" constant="55" id="5mK-tT-2mQ"/>
+                            <constraint firstItem="o4l-WK-gAQ" firstAttribute="top" secondItem="iUX-jf-gV1" secondAttribute="bottom" constant="5" id="XTt-4E-7OL"/>
+                            <constraint firstAttribute="bottom" secondItem="o4l-WK-gAQ" secondAttribute="bottom" constant="5" id="gMY-Ng-fIC"/>
+                            <constraint firstItem="iUX-jf-gV1" firstAttribute="leading" secondItem="It4-eV-pgh" secondAttribute="trailing" constant="5" id="hHX-4E-Wrg"/>
+                            <constraint firstItem="It4-eV-pgh" firstAttribute="top" secondItem="tsT-bg-1in" secondAttribute="top" constant="10" id="hwx-i3-nEO"/>
+                            <constraint firstAttribute="trailing" secondItem="o4l-WK-gAQ" secondAttribute="trailing" constant="5" id="kYe-PS-dAD"/>
+                            <constraint firstAttribute="trailing" secondItem="iUX-jf-gV1" secondAttribute="trailing" constant="5" id="ply-Uk-Pxi"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="138" id="sli-mA-SKK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tsT-bg-1in" secondAttribute="bottom" constant="10" id="8Hi-ot-Mhe"/>
+                    <constraint firstItem="tsT-bg-1in" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BcI-ht-s9D"/>
+                    <constraint firstAttribute="trailing" secondItem="tsT-bg-1in" secondAttribute="trailing" constant="5" id="TJ2-KV-F7w"/>
+                    <constraint firstItem="tsT-bg-1in" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="oOB-C2-iY5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="body" destination="o4l-WK-gAQ" id="XMC-jM-yxD"/>
+                <outlet property="id" destination="It4-eV-pgh" id="VNC-eq-qPP"/>
+                <outlet property="title" destination="iUX-jf-gV1" id="sU3-9D-5Yq"/>
+                <outlet property="uview" destination="tsT-bg-1in" id="PoW-9q-DBs"/>
+            </connections>
+            <point key="canvasLocation" x="95.384615384615387" y="56.872037914691937"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
