@@ -2,7 +2,7 @@
 //  TableViewCell.swift
 //  FetchAPI
 //
-//  Created by Incture on 09/04/23.
+//  Created by Incture on 10/04/23.
 //
 
 import UIKit
